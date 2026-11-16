@@ -1,0 +1,6 @@
+# Working/Temporary directories
+work/
+temp/
+tmp/
+
+.DS_Store
