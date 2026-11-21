@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Precision Clock</title>
 <meta name="description" content="iPhone 全螢幕毫秒時鐘，支援擋風玻璃 HUD 鏡像模式。A full-screen millisecond clock for iPhone with a mirrored HUD mode.">
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,11 +30,13 @@
 
   <section class="lang" id="zh" lang="zh-Hant">
     <h1>Precision Clock</h1>
-    <p>在黑色畫面上以大字顯示目前時間，格式為 <code>HH:mm:ss.SSS</code>。</p>
+    <p>在黑色畫面上以大字顯示目前時間，格式為 <code>HH:mm:ss.SSS</code>（預設 24 小時制，也可改為 12 小時制 AM/PM）。</p>
     <h2>功能</h2>
     <ul>
-      <li>24 小時制大字時鐘，含毫秒；直向與橫向皆自動調整字級</li>
-      <li>HUD 模式：將時鐘水平鏡像，經擋風玻璃反射後即可閱讀</li>
+      <li>大字時鐘，含毫秒；直向與橫向皆自動調整字級</li>
+      <li>可選 24 小時制（預設）或 12 小時制（AM/PM）</li>
+      <li>可選擇在時間上方或下方顯示日期，提供四種日期格式</li>
+      <li>HUD 模式：將時鐘（含日期）水平鏡像，經擋風玻璃反射後即可閱讀</li>
       <li>點一下畫面顯示或隱藏控制列，隱藏後即為沉浸式全螢幕時鐘</li>
       <li>四種文字顏色：白、綠、紅、琥珀；自動或手動字級</li>
       <li>可選擇保持螢幕恆亮與 App 內亮度調整，離開 App 時還原原本的亮度</li>
@@ -47,11 +50,13 @@
 
   <section class="lang" id="en" lang="en">
     <h1>Precision Clock</h1>
-    <p>Shows the current time as <code>HH:mm:ss.SSS</code> in large, easy-to-read digits on a black screen.</p>
+    <p>Shows the current time as <code>HH:mm:ss.SSS</code> (24-hour by default, or 12-hour with AM/PM) in large, easy-to-read digits on a black screen.</p>
     <h2>Features</h2>
     <ul>
-      <li>Large 24-hour clock with milliseconds, sized automatically in portrait or landscape</li>
-      <li>HUD mode: mirrors the clock horizontally so it can be read when reflected in a windshield</li>
+      <li>Large clock with milliseconds, sized automatically in portrait or landscape</li>
+      <li>24-hour (default) or 12-hour time with AM/PM</li>
+      <li>Optional date above or below the time, in four date formats</li>
+      <li>HUD mode: mirrors the clock (including the date) horizontally so it can be read when reflected in a windshield</li>
       <li>Tap the screen to show or hide the controls for an immersive full-screen clock</li>
       <li>Four text colors: white, green, red, amber; automatic or manual font size</li>
       <li>Optional screen-awake setting and in-app brightness; your original brightness is restored when you leave the app</li>
